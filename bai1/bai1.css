@@ -1,0 +1,89 @@
+/*minh thanh*/
+.khung{
+	width: 1020px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.khung .pic{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 550px;
+	background-image: url(C:/Users/PC/Desktop/laptrinhgiaodienweb/background-image/24401-6-engineer-photos.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left 3px top 3px;
+		z-index: 1;
+}
+.khung:hover .pic{
+	
+	transition-duration: 1s;
+	transform: rotate(0deg) scale(1.5) translate(200px);
+
+}
+
+.khung .noidung{
+	float: left;
+	width: 50%;
+	height: 550px;
+}
+.noidung h4{
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.noidung a.learn{
+	position: relative;
+	z-index: 11;
+	float: left;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	display: block;
+	width: 200px;
+	height: 80px;
+	background: orange;
+	text-align: center;
+	line-height: 75px;	
+	margin-left: 30px;
+}
+.khung:hover .noidung a.learn{
+	transition-duration: 1s;
+	transform: rotate(0deg) scale(2) translate(-160px);
+	background: #26EDE9;
+}
+.noidung a.buy{
+	position: relative;
+	float: left;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	display: block;
+	width: 200px;
+	height: 80px;
+	background: #7E7A7A;
+	text-align: center;
+	line-height: 75px;
+	margin-left: 20px;
+}
+.khung:hover a.buy{
+	transition-duration: 1s;
+	transform: rotate(0deg) scale(2) translate(-50px);
+	z-index: 2;
+	background: #515DE6;
+}
+.khung .design{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.design p{
+	color: white;
+	margin-left: 34%;
+	line-height: 10px;
+}
+
+
+
