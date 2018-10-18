@@ -1,0 +1,130 @@
+.trung1{
+	clear: both;
+	width: 1020px;
+	height: auto;
+	background: #546;
+	margin: 0 auto;
+}
+.trung1 .box{
+	float: left;
+	width: 24.9%;
+	height: 244.8px;
+	background: #FFFFFF;
+	border: solid 0.5px #B7B7B7;
+	position: relative;
+}
+.trung1 .box img{
+	width: 120px;
+	height: 120px;
+	margin-top: 30px;
+	margin-left: 65px;
+	margin-bottom: 10px;		
+}
+.trung1 .box h2{
+	margin: 0;
+	text-align: center;
+	color: #8F8F8F;	
+}
+.trung1 .box .an{
+	width: 100%;
+	height: 0;
+	background: rgba(9, 9, 30, 0.8);
+	position: absolute;
+	top:0px;
+	left: 0px;
+	transition: .5s ease;
+}
+.trung1 .box .an p{
+	display: none;
+	color: white;
+	font-size: 18px;
+	margin-top: 40px;
+	text-align: justify;
+	padding: 10px;
+}
+.trung1 .box:hover .an{
+	height: 100%;
+}
+.trung1 .box:hover .an p{
+	display: block;
+}
+.trung2{
+	clear: both;
+	width: 1020px;
+	height: 244.8px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	position: relative;
+}
+.trung2 .box{
+	float: left;
+	width: 50%;
+	height: 244.8px;
+	background: #FFFFFF;
+}
+.trung2 .box h1{
+	padding-top: 10px;
+	margin: 0;
+	margin-bottom: 20px;
+	color: #565555;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+.trung2 .box h1:hover{
+	color: #24056A;
+	transform: scale(1.1);
+}
+.trung2 .box p{
+	clear: both;
+	margin: 0;
+	color: #8A8A8A;
+	margin-bottom: 14px;
+	font-size: 18px;
+
+}
+.trung2 .box a{
+	margin: 0;
+	color: #4C4C4C;
+	margin-bottom: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 5px;
+}
+.trung2 .box a img{
+	clear: both;
+	float: left;
+	margin: 0;
+	width: 20px;
+	height: 20px;
+}
+.trung2 .an{
+	float: left;
+	width: 50%;
+	height: 244.8px;
+}
+.trung2 .an img{
+	float: left;
+	width: 244.8px;
+	height: 244.8px;
+	margin-left: 150px;
+}
+.trung2 .an .mo{
+	width: 0px;
+	height: 244.8px;
+	background: rgba(9, 9, 30, 0.8);
+	position: absolute;
+	bottom: 0;
+  	right: 0;
+	transition: .5s ease;
+	overflow: hidden;  
+}
+.trung2 .an .mo p{
+	margin-top: 90px;
+	font-size: 20px;
+	color:#FFFFFF;
+	text-align: justify;
+	padding: 10px;
+}
+.trung2 .an:hover .mo{
+	width: 50%;
+}
