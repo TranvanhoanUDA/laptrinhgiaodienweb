@@ -3,6 +3,7 @@
 	width: 1020px;
 	height: 600px;
 	margin: 0 auto;
+	clear: both;
 }
 
 .khung .pic{
@@ -14,12 +15,12 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: left 3px top 3px;
-		z-index: 1;
+	z-index: 1;
 }
 .khung:hover .pic{
 	
 	transition-duration: 1s;
-	transform: rotate(0deg) scale(1.5) translate(200px);
+	transform: rotate(0deg) scale(1.2) translate(200px);
 
 }
 
@@ -50,8 +51,9 @@
 }
 .khung:hover .noidung a.learn{
 	transition-duration: 1s;
-	transform: rotate(0deg) scale(2) translate(-160px);
+	transform: rotate(0deg) scale(2) translate(-180px);
 	background: #26EDE9;
+	top: 200px;
 }
 .noidung a.buy{
 	position: relative;
@@ -69,9 +71,10 @@
 }
 .khung:hover a.buy{
 	transition-duration: 1s;
-	transform: rotate(0deg) scale(2) translate(-50px);
+	transform: rotate(0deg) scale(2) translate(-60px);
 	z-index: 2;
 	background: #515DE6;
+	top: 200px;
 }
 .khung .design{
 	float: left;
@@ -84,6 +87,22 @@
 	margin-left: 34%;
 	line-height: 10px;
 }
+.khung:hover .noidung h4{
+	display: none;
+}
+.khung:hover .noidung p{
+	display: none;
+}
+.khung:hover{
+	background: #C6C0C5;
+	transition-duration: 2s;
+	transform: rotate(0deg) scale(1) translate(0px);
+	z-index:3;
+}
+
+
+
+
 
 
 
