@@ -1,0 +1,57 @@
+.panner{
+	width: 1020px;
+	height: 500px;
+	background: pink;
+	margin: 0 auto;
+	position: relative;
+}
+.panner .pic{
+	float: left;
+	background-image : url(C:/Users/Admin/Downloads/34394805_942683232577979_4127810544683974656_o.jpg);
+	width: 1020px;
+	height: 500px;
+	background-size: 100% 100%;
+}
+.panner h1{
+	position: absolute;
+	top: 150px;
+	left: 40%;
+	line-height: 10px;
+	color: #C92D18;
+
+}
+.panner p{
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 20px;
+	top: 200px;
+	left:40%;
+	line-height: 15px;
+	color: pink;
+}
+.panner .view{
+	display: block;
+	width: 25%;
+	margin-left: 5px;
+	padding: 8px 0px 8px 25px;
+	border-radius: 5px;
+	background: #4949C0;
+	position: absolute;
+	top: 250px;
+	left: 40%;
+	transition-duration: 1s;
+}
+
+.panner:hover .view{
+	width: 200px;
+	height: 100px;
+    left: 40%;
+    top: 200px;
+}
+.panner:hover p{
+	display: none;
+}
+.panner:hover h1{
+	display: none;
+}
