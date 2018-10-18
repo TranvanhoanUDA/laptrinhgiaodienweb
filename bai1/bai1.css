@@ -321,6 +321,7 @@
 	height: 244.8px;
 	background: #FFFFFF;
 	margin: 0 auto;
+	margin-bottom: 15px;
 }
 .trung2 .box{
 	float: left;
@@ -335,6 +336,7 @@
 	color: #565555;
 	transition-duration: 0.5s;
 	transition-timing-function: linear;
+	font-size: 28px;
 }
 .trung2 .box h1:hover{
 	color: #24056A;
@@ -394,4 +396,102 @@
 }
 .trung2 .an:hover .mo{
 	width: 100%;
+}
+.blade{
+	width: 1020px;
+	height: 600px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.blade .pic{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 550px;
+	background-image: url(http://pngimg.com/uploads/industrial_worker/industrial_worker_PNG11452.png);
+	background-size: 80%, 80%;
+	background-repeat: no-repeat;
+	background-position: left 3px top 3px;
+	z-index: 1;
+}
+.blade:hover .pic{
+	transition-duration: 1s;
+	transform: rotate(0deg) scale(1.2) translate(250px, 45px);
+}
+
+.blade .noidung{
+	float: left;
+	width: 50%;
+	height: 550px;
+}
+.noidung h4{
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.noidung a.learn{
+	position: relative;
+	z-index: 11;
+	float: left;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	display: block;
+	width: 200px;
+	height: 80px;
+	background: orange;
+	text-align: center;
+	line-height: 75px;	
+	margin-left: 30px;
+}
+.blade:hover .noidung a.learn{
+	transition-duration: 1s;
+	transform: rotate(0deg) scale(2) translate(-180px);
+	background: #26EDE9;
+	top: 200px;
+}
+.noidung a.buy{
+	position: relative;
+	float: left;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	display: block;
+	width: 200px;
+	height: 80px;
+	background: #7E7A7A;
+	text-align: center;
+	line-height: 75px;
+	margin-left: 20px;
+}
+.blade:hover a.buy{
+	transition-duration: 1s;
+	transform: rotate(0deg) scale(2) translate(-60px);
+	z-index: 2;
+	background: #515DE6;
+	top: 200px;
+}
+.blade .design{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.design p{
+	color: white;
+	margin-left: 34%;
+	line-height: 10px;
+}
+.blade:hover .noidung h4{
+	display: none;
+}
+.blade:hover .noidung p{
+	display: none;
+}
+.blade:hover{
+	background: #C6C0C5;
+	transition-duration: 2s;
+	transform: rotate(0deg) scale(1) translate(0px);
+	z-index:3;
 }
