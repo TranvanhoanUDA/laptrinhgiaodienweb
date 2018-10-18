@@ -1,0 +1,55 @@
+.main3{
+	width: 1020px;
+	height: 300px;
+	margin: 0 auto;
+}
+.main3 .box{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: #CAD5EE;
+	position: relative;
+}
+.main3 .box img{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-left: 75px;
+	margin-top: 15px;
+}
+.main3 .box h3{
+	margin: 0;
+	text-align: center;
+	font-size: 25px;
+	font-family: unset;
+	margin-top: 10px;
+}
+.main3 .box p{
+	padding: 0 20px;
+	text-align: center;
+}
+.main3 .box p a{
+	text-decoration: none;
+}
+.main3 .box .an{
+	width: 100%;
+	height: 0;
+	background: #AAD3ED;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: .5s ease;
+	overflow: hidden;
+}
+.main3 .box .an h3{
+	padding-top: 40px;
+	color: #000D3E;
+}
+.main3 .box .an p{
+	text-align: center;
+	padding: 0 25px;
+	color: #000D3E;
+}
+.main3 .box:hover .an{
+	height: 100%;
+}
